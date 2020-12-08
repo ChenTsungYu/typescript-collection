@@ -15,3 +15,15 @@ npm i -g typescript ts-node
 ```
 tsc --help
 ```
+## 編譯 TypeScript
+`XXX.ts` 為 TypeScript 檔案
+```
+tsc XXX.ts
+```
+上述動作只有進行編譯，會看到相同路徑下有編譯好的同名`.js`檔，要再執行`node XXX.js`。
+## 編譯且執行 TypeScript
+需透過 `ts-node` 這個小型的 command line tool
+```
+ts-node tsc XXX.ts
+```
+
