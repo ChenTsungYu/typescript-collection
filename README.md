@@ -1,5 +1,5 @@
 # typescript-collection
-The repository include all practice about TypeScript
+This repository includes all practice about TypeScript
 
 ## Awesome resource
 - [TypeScript Deep Dive](https://basarat.gitbook.io/typescript/)
